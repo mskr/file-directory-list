@@ -10,9 +10,9 @@ Visit your page at ```https://{INSERT_DOMAIN_HERE}.com/{INSERT_FOLDER_HERE}/?reg
 
 ### How does it work? Is it secure?
 
-Register writes your name and password_hash to users.txt.
+Register writes your name and [password_hash](https://www.php.net/manual/en/function.password-hash.php) to users.txt.
 
-Login reads users.txt at your name and runs your password through password_verify.
+Login reads users.txt at your name and runs your password through [password_verify](https://www.php.net/manual/en/function.password-verify.php).
 
 Passwords are never stored.
 
