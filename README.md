@@ -2,6 +2,20 @@
 
 Easily display files and folders in a mobile friendly, clean and cool way. Just drop the `index.php` in your folder and you are ready to go. Past versions of this script can be found here: https://halgatewood.com/free/file-directory-list/
 
+## Password protection by @mskr
+
+### Register yourself as a new user
+
+Visit your page at ```https://{INSERT_DOMAIN_HERE}.com/{INSERT_FOLDER_HERE}/?register```
+
+### How does it work? Is it secure?
+
+Register writes your name and password_hash to users.txt.
+
+Login reads users.txt at your name and runs your password through password_verify.
+
+Passwords are never stored.
+
 ## Options 
 
 At the top of the `index.php` file you have a few settings you can change:
