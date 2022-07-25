@@ -1,0 +1,2 @@
+admin $2y$10$XuRGgvwoKdtZM0QWepZTkeKgdT8fUPm1/HQkddn2pdAiGvbyQX3Se 
+tester $2y$10$vWbiyqwsNwDM99bDlcvXPupjz2UG0zfwOnMh1BkOIsRsIj1Nq/t5y
